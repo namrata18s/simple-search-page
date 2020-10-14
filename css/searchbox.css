@@ -13,10 +13,32 @@ input[type=text] {
   padding: 12px 20px;
   border-radius: 4px;
   cursor: pointer;
-  width: 60%;
+  width: 100%;
 
 }
-
+.clearable-input {
+  position: relative;
+  display: inline-block;
+  width:60%;
+}
+.clearable-input > input {
+  padding-right: 1.4em;
+}
+.clearable-input >[data-clear-input] {
+  display: none;
+  position: absolute;
+  top: 4px;
+  left: 100%;
+  font-weight: bold;
+  font-size: 1.8em;
+  padding: 0 0.2em;
+  line-height: 1em;
+  cursor: pointer;
+  opacity:0.5;
+}
+.clearable-input > input::-ms-clear {
+  display: none;
+}
 .container{
 	font-family: "Arial Black", Gadget, sans-serif;
 	text-align: center;
