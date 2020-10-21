@@ -1,13 +1,17 @@
-input[type=submit] {
-  background-color:  #00BFFF;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: center;
-  width: 20%
+
+
+   input[type=submit] {
+    background-color: #00BFFF;
+    color: #708090;
+    padding: 12px 20px;
+    /* border: none; */
+    border-radius: 8px;
+    cursor: pointer;
+    float: center;
+    width: 20%;
+    border-color: #708090;
 }
+
 input[type=text] {
   border:none;
   padding: 12px 20px;
